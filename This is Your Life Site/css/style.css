@@ -231,8 +231,8 @@ h3 {
 	font-style: italic;
 	font-size: 1.8em;
 	margin-bottom: 15px;
+	text-decoration: underline;
 }
-
 .listen-icons {
 	max-width: 50px;
 	margin: 10px 10px;
