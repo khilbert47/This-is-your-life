@@ -369,6 +369,9 @@ header {
 	color: #4285F4
 }
 
+#pups img {
+	max-width: 250px;
+}
 
 
 nav {
@@ -627,16 +630,14 @@ nav a {
 		max-width: 400px;
 	}
 
-	.faq-questions {
-		margin-left: 30px;
-	}
+
 
 	#faq a {
 		padding: 0 5px;
 	}
 
-	.links {
-		text-align: center;
+	#pups img {
+		margin-top: 20px;
 	}
 
 	.instagram {
@@ -777,6 +778,39 @@ nav a {
 	#listen {
 		margin-top: 100px;
 	}
+
+	.row {
+		margin-top: 0;
+	}
+
+	#faq {
+		padding-left: 0;
+		max-width: 500px;
+		max-height: 700px;
+	}
+
+	#faq p {
+		margin-bottom: 15px;
+	}
+
+	.faq-questions {
+		padding: 0 20px;
+	}
+
+	#pups img {
+		max-width: 400px;
+		border-radius: 10%;
+	}
+
+	#pups {
+		max-height: 700px;
+		padding-top: 100px;
+	}
+
+	#links {
+		margin-top: 70px;
+	}
+
 }
 @media only screen and (min-width: 1440px) {
 	.header-name {
@@ -821,4 +855,19 @@ nav a {
 	.affirmations-dowload {
 		margin-left: 0 !important;
 	}
+
+	#faq {
+		max-width: 700px;
+	}
+
+	.faq-questions {
+		max-width: 500px;
+		padding: 0 40px;
+		margin-left: 15%;
+	}
+
+	#pups {
+		padding-right: 100px;
+	}
+
 }
