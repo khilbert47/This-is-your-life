@@ -348,24 +348,26 @@ header {
   margin: 5px 0;
 }
 
-#faq a {
-  color: #4285F4;
-}
-
-#faq a:hover, a:focus {
-  text-decoration: none;
-}
-
-#faq a:active {
-  text-decoration: none;
-}
-
 #faq .fas {
   color: #4285F4
 }
 
 #pups img {
   max-width: 250px;
+}
+
+.about-links {
+	text-decoration: none;
+	color: #4285F4;
+}
+
+.about-links:hover, .about-links:focus {
+	text-decoration: underline;
+	color: #BC4639;
+}
+
+.about-links:active {
+	text-decoration: none;
 }
 
 nav {
@@ -618,7 +620,7 @@ nav a {
     max-width: 400px;
   }
 
-  #faq a {
+  .about-links {
     padding: 0 5px;
   }
 

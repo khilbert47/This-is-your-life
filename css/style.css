@@ -352,16 +352,16 @@ header {
 	margin: 5px 0;
 }
 
-#faq a{
+#links a{
 	color: #4285F4;
 }
 
 
-#faq a:hover, a:focus {
+#links a:hover, a:focus {
 	text-decoration: none;
 }
 
-#faq a:active {
+#links a:active {
 	text-decoration: none;
 }
 
@@ -632,7 +632,7 @@ nav a {
 
 
 
-	#faq a {
+	#links a {
 		padding: 0 5px;
 	}
 
